@@ -6,7 +6,7 @@ public class LE_Soundex {
 	
 	public static void main(String[] args) {
 		
-		System.out.println(soundex("grauke"));
+		System.out.println(soundex("Paul"));
 			
 	}
 	
@@ -28,7 +28,6 @@ public class LE_Soundex {
 				if(table[value]!= 0){
 					
 					sndx+=table[value];
-					
 					break;
 					
 				}
